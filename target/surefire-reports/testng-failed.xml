@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [基本功能接口测试]" verbose="0">
+  <listeners>
+    <listener class-name="basic.myExtentTestNgFormatter"/>
+  </listeners>
+  <test name="获取天气信息接口(failed)">
+    <classes>
+      <class name="test_case.Case1">
+        <methods>
+          <include name="case1_3" invocation-numbers="0"/>
+          <include name="case1_1" invocation-numbers="0"/>
+          <include name="case1_2" invocation-numbers="0"/>
+          <include name="before_class"/>
+        </methods>
+      </class> <!-- test_case.Case1 -->
+    </classes>
+  </test> <!-- 获取天气信息接口(failed) -->
+</suite> <!-- Failed suite [基本功能接口测试] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name ="基本功能接口测试">
+
+    <test name="获取天气信息接口">
+        <classes>
+            <class name = "test_case.Case1">
+                <methods>
+                    <include name = "case1_1" />
+                    <include name = "case1_2" />
+                    <include name = "case1_3" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+    <!--监听测试，生成测试报告，发送测试汇总消息-->
+    <listeners>
+        <listener class-name="basic.myExtentTestNgFormatter" />
+    </listeners>
+
+
+
+</suite>
+
+
+
